@@ -10,6 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".MainActivitylecture"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".HomeActivity2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
